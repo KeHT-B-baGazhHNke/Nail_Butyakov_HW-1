@@ -8,7 +8,7 @@ namespace Nail_Butyakov_HW1_Ex1
         {
             Console.WriteLine("Задача №1");
             Console.WriteLine("Мир Труд Май");
-            Console.WriteLine("Мир \n  Труд\n      Май");
+            Console.WriteLine("Мир\n  Труд\n      Май");
             Console.ReadKey();
         }
     }
