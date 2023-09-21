@@ -29,14 +29,14 @@ namespace Nail_Butyakov_HW1
                     bool dot = Number1.Contains(".") ^ Number2.Contains(".");
                     if (dot)
                     {
-                        double a = Convert.ToDouble(Number1, numberFormatInfo);
-                        double b = Convert.ToDouble(Number2, numberFormatInfo);
+                        double b = Convert.ToDouble(Number1, numberFormatInfo);
+                        double a = Convert.ToDouble(Number2, numberFormatInfo);
                         Console.WriteLine($"{a}, {b}");
                     }
                     else
                     {
-                        double a = Convert.ToDouble(Number1);
-                        double b = Convert.ToDouble(Number2);
+                        double b = Convert.ToDouble(Number1);
+                        double a = Convert.ToDouble(Number2);
                         Console.WriteLine($"{a}, {b}");
                     }
                     Console.ReadKey();
